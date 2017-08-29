@@ -1,0 +1,45 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Howdee", "G'day"],
+         "responses": ["Hello, how can I help you today?", "Hello, how can I assist you today?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["Have a nice day"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "circledgame",
+         "patterns": ["Can you explain what a circled game is?", "Why are games marked as circled?", "What are circled games?", "How can I uncircle a game?" ],
+         "responses": ["All games are \"Circled\" when they are posted. As it gets closer to the start time the game becomes uncircled, usually 12 hours before tipoff/kickoff. Circled games have a circled game limit in Tools/Sports Settings. The idea is that the lines become more stable as it gets closer to the game. The circled game prevent sharps from making a big play on an early unstableline. You can however change the time when games are uncircled for various sports in Tools/Sports Settings and edit the individual sports at the bottom of the screen."]
+        },
+        {"tag": "missingemails",
+         "patterns": ["Players aren't receiving emails", "Player isn't receiving emails", "Player missed emails." ],
+         "responses": ["If players are not receiving emails they should check their \"Spam\" or \"Junk\" mail folders to see if the emails have been wrongly flagged as spam. If they are, then marking these emails as \"not spam\" will hopefully prevent any more of these emails being wrongly filtered as spam."]
+        },
+        {"tag": "subscriptionmonth",
+         "patterns": ["My subscription hasn't been renewed for the full month." ],
+         "responses": ["In our system a month is considered to be 28 days, which is exactly 4 weeks."]
+        },
+        {"tag": "casinotab",
+         "patterns": ["The casino tab isn't coming up.", "How do I turn the casino tab on?"],
+         "responses": ["By default the casino is turn off. You need to go to Tools/Sports Settings and \"Enable\" casino for your players to see the casino."]
+        },
+        {"tag": "playerpaying",
+         "patterns": ["How do my players get paid?", "How do my players pay me?" ],
+         "responses": ["We are a fantasy sportsbook simulator. There is no mechanism to pay or take payment for players. However, the system will give you reports to see who is winning and who is losing."]
+        },
+        {"tag": "playercontact",
+         "patterns": ["Why didn't you respond to my players email?"],
+         "responses": ["We have a policy not to respond to any player. If there is communication between players and our system administrators and engineers it can lead to all sorts of corruption."]
+        },
+        {"tag": "changesubscription",
+         "patterns": ["How do I change my subscription?", "How do I upgrade my subscription?", "How do I downgrade my subscription?"],
+         "responses": ["On your dashboard there is a Upgrade/Renew Subscription button. You change your subscription there."]
+        }
+   ]
+}
+
